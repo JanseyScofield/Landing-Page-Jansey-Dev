@@ -1,6 +1,13 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import BarraNavegacao from "./components/barraNavegacao/BarraNavegacao";
+
 function App() {
 
-  return(<h1>Hello, World!</h1>)
+  return(
+    <main className="container d-flex justify-content-center">
+      <BarraNavegacao/>
+    </main>
+  );
 }
 
-export default App
+export default App;
