@@ -2,11 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   background-image: url('./assets/imagemFundoLP.jpg');
-  background-size: cover; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-attachment: fixed; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 :root{
@@ -20,4 +23,15 @@
 .lista-navegacao a{
   text-decoration: none;
   color: var(--cinza-100);
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.lista-navegacao a:hover{
+  transform: scale(1.2);
+}
+
+.secao-sobre{
+  color: var(--branco-700);
+  
 }
